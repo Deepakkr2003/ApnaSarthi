@@ -8,7 +8,13 @@
 // import TourToKakolat from './BiharTourism/TourToKakolat';
 // import Terms from './BiharTourism/Terms';
 
-import VisitToBodhgaya from "./BiharTourism/VisitToBodhgaya";
+// import VisitToKakolat from "./BiharTourism/VisitToKakolat";
+
+
+
+// import VisitToValmiki from "./BiharTourism/VisitToValmiki";
+// import VisitToRohtas from "./BiharTourism/VisitToRohtas";
+// import VisitToBodhgaya from "./BiharTourism/VisitToBodhgaya";
 // import VisitToRajgir from "./BiharTourism/VisitToRajgir";
 
 const BiharTourism = () => {
@@ -24,7 +30,10 @@ const BiharTourism = () => {
       <TourToKakolat/>
       <Terms/> */}
       {/* <VisitToRajgir/> */}
-      <VisitToBodhgaya/>
+      {/* <VisitToBodhgaya/> */}
+      {/* <VisitToRohtas/> */}
+      {/* <VisitToValmiki/> */}
+      {/* <VisitToKakolat/> */}
       
     </div>
   );

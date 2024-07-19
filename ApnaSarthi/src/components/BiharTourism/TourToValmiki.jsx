@@ -11,6 +11,7 @@ import v4 from '../../assets/v4.jpeg';
 import v5 from '../../assets/v5.jpeg';
 import v6 from '../../assets/v6.jpeg';
 import v7 from '../../assets/v7.jpeg';
+import v8 from '../../assets/v8.jpeg';
 
 
 
@@ -54,6 +55,10 @@ function TourToValmiki() {
         },
         {
         url:v7,
+        alt: 'image1',
+        },
+        {
+        url:v8,
         alt: 'image1',
         },
        
