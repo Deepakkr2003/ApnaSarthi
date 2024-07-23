@@ -4,6 +4,7 @@ import { FaCarSide } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
 import logo from '../../assets/Apnasarthi_logo.jpeg';
+// import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -61,6 +62,7 @@ function Header() {
           >
             <div className="font-semibold cursor-pointer flex items-center">
               <div>DESTINATION</div>
+              {/* <Link to="/place-to-visit-in-rajgir" className="text-white">Place to visit in Rajgir</Link> */}
               <IoIosArrowDown size={20} className="mt-1 ml-1" />
             </div>
             {isOpen && (
