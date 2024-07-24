@@ -36,7 +36,7 @@ function Header() {
     ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-blue-600 rounded-xl  px-4'>
+    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-blue-600 rounded-xl  px-4 z-50'>
         <div>
             <img src={logo} alt="" className='w-32 h-16 rounded-xl'/>
         </div >

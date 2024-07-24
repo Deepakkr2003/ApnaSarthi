@@ -1,22 +1,23 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React,{useState} from 'react';
 // import Header from './BiharTourism/Header';
-// import TourToRajgir from './BiharTourism/TourToRajgir';
-// import TourToBodhgaya from './BiharTourism/TourToBodhgaya';
-// import TourToRohtas from './BiharTourism/TourToRohtas';
-// import TourToValmiki from './BiharTourism/TourToValmiki';
-// import TourToKakolat from './BiharTourism/TourToKakolat';
-// import Terms from './BiharTourism/Terms';
+import TourToRajgir from './BiharTourism/TourToRajgir';
+import TourToBodhgaya from './BiharTourism/TourToBodhgaya';
+import TourToRohtas from './BiharTourism/TourToRohtas';
+import TourToValmiki from './BiharTourism/TourToValmiki';
+import TourToKakolat from './BiharTourism/TourToKakolat';
+import Terms from './BiharTourism/Terms';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import VisitToKakolat from "./BiharTourism/VisitToKakolat";
-
-
-
 // import VisitToValmiki from "./BiharTourism/VisitToValmiki";
 // import VisitToRohtas from "./BiharTourism/VisitToRohtas";
-import VisitToBodhgaya from "./BiharTourism/VisitToBodhgaya";
+// import VisitToBodhgaya from "./BiharTourism/VisitToBodhgaya";
 // import VisitToRajgir from "./BiharTourism/VisitToRajgir";
+
+
+
+
 
 const BiharTourism = () => {
   
@@ -24,21 +25,17 @@ const BiharTourism = () => {
     
     <div>
       
-      {/* <Header/> */}
-      {/* <TourToRajgir/>
+    {/* <Header/> */}
+      <TourToRajgir/>
       <TourToBodhgaya/>
       <TourToRohtas/>
       <TourToValmiki/>
       <TourToKakolat/>
-      <Terms/> */}
+      <Terms/>
       
-      {/* <VisitToRajgir/> */}
-      <VisitToBodhgaya/>
-      {/* <VisitToRohtas/> */}
-      {/* <VisitToValmiki/> */}
-      {/* <VisitToKakolat/> */}
+ 
       
-    </div>
+  </div>
    
   );
 };

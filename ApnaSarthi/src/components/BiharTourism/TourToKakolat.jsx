@@ -120,7 +120,7 @@ function TourToKakolat() {
                       </div>
                       <div>
                         <h1 className='font-bold'>Price</h1>
-                        <h1 className='text-4xl font-semibold'>&#8377;1599</h1>
+                        <h1 className='text-4xl font-semibold'>&#8377;1999</h1>
                       </div>
                     </div>
                 </div>
@@ -133,14 +133,14 @@ function TourToKakolat() {
                         <h1 className='font-bold'>Call Us</h1>
                         <div className='flex pt-2'>
                           <IoCall size={20} className='text-blue-500'/>
-                          <a href='tel:+919999999999' className='pl-1'>+91 9999999999</a>
+                          <a href='tel:+919798845588' className='pl-1'>+91 9798845588</a>
                         </div>
                       </div>
                       <div>
                         <h1 className='font-bold'>Text Us</h1>
                         <div className='flex pt-2'>
                             <IoLogoWhatsapp size={20} className='text-green-600'/>
-                            <a href='https://wa.me/919999999999' className='pl-1'>+91 9999999999</a>
+                            <a href='https://wa.me/919798845588' className='pl-1'>+91 9798845588</a>
                         </div>
                       </div>
                     </div>
