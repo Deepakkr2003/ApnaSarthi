@@ -13,6 +13,7 @@ import Sita from '../../assets/Sita.jpeg';
 import Tree from '../../assets/Tree.jpeg';
 import budhha from '../../assets/budhha.jpeg';
 import Ramshila from '../../assets/Ramshila.jpeg';
+import { Link, Outlet } from 'react-router-dom';
 
 
 
@@ -135,9 +136,9 @@ function TourToBodhgaya() {
                   </ul>
                 </div>
 
-                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
-                  <button className='pt-2 hover:scale-105 duration-200'>Overview</button>
-                </div>
+                
+                 
+
 
                 <div className=' mt-8 w-full md:w-5/6 rounded-2xl h-32 bg-white'>
                     <h1 className='text-center text-xl font-medium underline'>Booking Details</h1>
@@ -176,6 +177,13 @@ function TourToBodhgaya() {
                       </div>
                     </div>
                 </div>
+
+                <Link to="/home/tour_package_for_bihar_tourism/tour-to-bodhgaya/visit-to-bodhgaya">
+                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
+                  <button className='pt-2 hover:scale-105 duration-200'>Explore More...</button>
+                </div>
+                </Link>
+
           </div>
         </div>
 
@@ -188,7 +196,7 @@ function TourToBodhgaya() {
 
 
 
-
+<Outlet/>
 
     </div>
   )

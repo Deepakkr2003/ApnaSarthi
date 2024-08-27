@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import { IoCall } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io";
 import {BsChevronCompactLeft,BsChevronCompactRight} from 'react-icons/bs';
@@ -131,9 +132,7 @@ function TourToRajgir() {
                 </div>
 
 
-                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
-                  <button className='pt-2 hover:scale-105 duration-200'>Overview</button>
-                </div>
+               
                 <div className=' mt-8 w-full md:w-5/6 rounded-2xl h-32 bg-white'>
                     <h1 className='text-center text-xl font-medium underline'>Booking Details</h1>
                     <div className='flex justify-around pt-4'>
@@ -172,6 +171,13 @@ function TourToRajgir() {
                       </div>
                     </div>
                 </div>
+
+
+                <Link to="/home/tour_package_for_bihar_tourism/tour-to-rajgir/visit-to-rajgir">
+                  <div className='mt-8 w-full md:w-5/6 mb-2 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
+                    <p className='pt-2 hover:scale-105 duration-200'>Explore More...</p>
+                    </div>
+                </Link>  
           </div>
         </div>
 
@@ -181,7 +187,7 @@ function TourToRajgir() {
 
 
 
-
+          <Outlet/>
 
 
 

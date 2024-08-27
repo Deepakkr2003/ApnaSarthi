@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
+
 import React from 'react'
 import rajgir1 from '../../assets/Rajgir1.jpeg';
 import rajgir2 from '../../assets/Rajgir2.jpeg';

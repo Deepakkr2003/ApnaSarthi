@@ -12,6 +12,7 @@ import v5 from '../../assets/v5.jpeg';
 import v6 from '../../assets/v6.jpeg';
 import v7 from '../../assets/v7.jpeg';
 import v8 from '../../assets/v8.jpeg';
+import { Link, Outlet } from 'react-router-dom';
 
 
 
@@ -133,9 +134,9 @@ function TourToValmiki() {
                   </ul>
                 </div>
 
-                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
-                  <button className='pt-2 hover:scale-105 duration-200'>Overview</button>
-                </div>
+                
+
+           
 
                 <div className=' mt-8 w-full md:w-5/6 rounded-2xl h-32 bg-white'>
                     <h1 className='text-center text-xl font-medium underline'>Booking Details</h1>
@@ -174,6 +175,15 @@ function TourToValmiki() {
                       </div>
                     </div>
                 </div>
+
+
+                <Link to="/home/tour_package_for_bihar_tourism/tour-to-valmiki/visit-to-valmiki">
+                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
+                  <button className='pt-2 hover:scale-105 duration-200'>Explore More...</button>
+                </div>
+                </Link>
+
+
           </div>
         </div>
 
@@ -184,7 +194,7 @@ function TourToValmiki() {
 
 
 
-
+<Outlet/>
 
 
 

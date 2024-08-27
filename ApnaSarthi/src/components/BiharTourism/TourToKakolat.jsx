@@ -7,6 +7,7 @@ import {RxDotFilled} from 'react-icons/rx'
 import Kakolat from '../../assets/Kakolat.png';
 import k1 from '../../assets/k1.jpeg';
 import k2 from '../../assets/k2.jpeg';
+import { Link, Outlet } from 'react-router-dom';
 
 function TourToKakolat() {
 
@@ -104,9 +105,6 @@ function TourToKakolat() {
                   </ul>
                 </div>
 
-                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
-                  <button className='pt-2 hover:scale-105 duration-200'>Overview</button>
-                </div>
 
                 <div className=' mt-8 w-full md:w-5/6 rounded-2xl h-32 bg-white'>
                     <h1 className='text-center text-xl font-medium underline'>Booking Details</h1>
@@ -145,6 +143,15 @@ function TourToKakolat() {
                       </div>
                     </div>
                 </div>
+
+
+                <Link to="/home/tour_package_for_bihar_tourism/tour-to-kakolat/visit-to-kakolat">
+                <div className='mt-8 w-full md:w-5/6 rounded-2xl h-12 text-center bg-white font-semibold text-xl cursor-pointer'>
+                  <button className='pt-2 hover:scale-105 duration-200'>Explore More...</button>
+                </div>
+                </Link>
+
+
           </div>
         </div>
 
@@ -156,7 +163,7 @@ function TourToKakolat() {
 
 
 
-
+<Outlet/>
 
 
     </div>
